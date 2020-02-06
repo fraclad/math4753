@@ -9,6 +9,7 @@
 #'
 #' @examples x = df1$COLUMN1; y = df1$COLUMN2; lab3(x,y)
 lab3 = function(x,y){
+
   model.lm = lm(y~x)
   yhat = fitted(model.lm)
   RSS = RSS = sum((y - yhat)^2)
@@ -18,6 +19,7 @@ lab3 = function(x,y){
 
   TSS = sum((y - ref)^2)
 
-  result = list(RSS, MSS, TSS)
+  result = list('RSS' = RSS, 'MSS' = MSS, 'TSS' = TSS)
   return(result)
+
 }

@@ -4,7 +4,7 @@
 #' @param x
 #' @param y
 #'
-#' @return
+#' @return a list containing RSS, MSS, and TSS
 #' @export
 #'
 #' @examples x = df1$COLUMN1; y = df1$COLUMN2; lab3(x,y)

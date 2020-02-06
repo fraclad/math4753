@@ -6,7 +6,7 @@
 #' @return z score of a vector
 #' @export
 #'
-#' @examples lab2(x)
+#' @examples x = df1$COLUMN1; lab2(x)
 lab2 = function(x){
   z = (x - mean(x))/sd(x)
   return(z)

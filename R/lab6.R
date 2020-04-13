@@ -7,8 +7,8 @@
 #' @return
 #' @export
 #'
-#' @examples myncurve(10,1,7)
-myncurve = function(mu, sigma, x){
+#' @examples myncurvelab6(10,1,7)
+myncurvelab6 = function(mu, sigma, x){
   curve(dnorm(x,mean=mu,sd=sigma), xlim = c(mu-3*sigma, mu + 3*sigma))
   lowlim = x - 2000
   xcurve = seq(lowlim,x,length =10000)

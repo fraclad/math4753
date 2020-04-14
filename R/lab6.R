@@ -1,10 +1,10 @@
-#' Title
+#' Continuous, Normal Distribution Area
 #'
-#' @param mu
-#' @param sigma
-#' @param x
+#' @param mu mean
+#' @param sigma the standard deviation
+#' @param x vector of interest
 #'
-#' @return
+#' @return graphic showing the area of prescribed configuration of a normal distribution
 #' @export
 #'
 #' @examples myncurvelab6(10,1,7)

@@ -2,21 +2,23 @@
 % Please edit documentation in R/lab4.R
 \name{lab4}
 \alias{lab4}
-\title{Title
+\title{the quadratic fit model
 take x and y and plot the quadratic fit model}
 \usage{
 lab4(x, y)
 }
 \arguments{
-\item{y}{}
+\item{x}{independent sample data}
+
+\item{y}{random variable corresponding to x}
 }
 \value{
 plot of quadratic fit
 }
 \description{
-Title
+the quadratic fit model
 take x and y and plot the quadratic fit model
 }
 \examples{
- = df1$COLUMN1; y = df1$COLUMN2; lab4(x,y)
+df1$COLUMN1; y = df1$COLUMN2; lab4(x,y)
 }

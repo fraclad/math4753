@@ -2,18 +2,24 @@
 % Please edit documentation in R/lab5.R
 \name{mybin}
 \alias{mybin}
-\title{Mybin function for lab 5}
+\title{The Binomial Simulation
+Creates bin distribution for binomial}
 \usage{
 mybin(iter = 100, n = 10, p = 0.5)
 }
 \arguments{
-\item{p}{}
+\item{iter}{number of iterations}
+
+\item{n}{number of bins}
+
+\item{p}{probablity of success}
 }
 \value{
-
+binomial simulation graphics
 }
 \description{
-Mybin function for lab 5
+The Binomial Simulation
+Creates bin distribution for binomial
 }
 \examples{
 mybin(iter = 25, n = 9, p = 075)

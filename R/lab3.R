@@ -1,8 +1,8 @@
-#' Title
+#' The Sum or Squares of SLR
 #' Compute residual, model, and total sum of squares
 #'
-#' @param x
-#' @param y
+#' @param x independent sample data
+#' @param y random variable corresponding to x
 #'
 #' @return a list containing RSS, MSS, and TSS
 #' @export

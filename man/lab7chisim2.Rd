@@ -18,10 +18,28 @@ lab7chisim2(
 )
 }
 \arguments{
+\item{n1}{n sample of y1}
+
+\item{n2}{n sample of y2}
+
+\item{sigma1}{std dev of y1}
+
+\item{sigma2}{std dev of y2}
+
+\item{mean1}{mean of y1}
+
+\item{mean2}{mean of y2}
+
+\item{iter}{number of iteration}
+
+\item{xleg}{enable user toggle legend by click on the graphic output}
+
+\item{ymax}{max of y, for visual clearance}
+
 \item{...}{}
 }
 \value{
-
+Chi sq statistics graphics
 }
 \description{
 Two Population Chi Sq Statistics

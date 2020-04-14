@@ -3,14 +3,14 @@
 #' predict a function output with (1-alpha) confidence interval from a sample.
 #' default value evaluates the input with 10,000 iterations to estimate the mean
 #'
-#' @param iter
-#' @param x
-#' @param fun
-#' @param alpha
-#' @param cx
+#' @param iter number of iteration
+#' @param x sample to be bootstrapped
+#' @param fun function of interest to be estimated
+#' @param alpha alpha parameter of confidence interval
+#' @param cx point graphical variable for visual modification
 #' @param ...
 #'
-#' @return
+#' @return 1-alpha CI for a particular function
 #' @export
 #'
 #' @examples myboot2(x = rnorm(20, mean = 10, sd = 2), alpha = 0.1, fun = "sd")

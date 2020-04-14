@@ -7,10 +7,20 @@
 myboot2(iter = 10000, x, fun = "mean", alpha = 0.05, cx = 1.5, ...)
 }
 \arguments{
+\item{iter}{number of iteration}
+
+\item{x}{sample to be bootstrapped}
+
+\item{fun}{function of interest to be estimated}
+
+\item{alpha}{alpha parameter of confidence interval}
+
+\item{cx}{point graphical variable for visual modification}
+
 \item{...}{}
 }
 \value{
-
+1-alpha CI for a particular function
 }
 \description{
 predict a function output with (1-alpha) confidence interval from a sample.

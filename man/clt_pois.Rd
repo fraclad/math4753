@@ -2,20 +2,26 @@
 % Please edit documentation in R/Lab8.R
 \name{clt_pois}
 \alias{clt_pois}
-\title{Title Central Limit Theorem on Poisson Distribution
+\title{Central Limit Theorem on Poisson Distribution
 Produce plots pertaining the distribution of the sample mean from a population distributed as
 Poisson distribution}
 \usage{
 clt_pois(n, iter, lambda = 10, ...)
 }
 \arguments{
+\item{n}{number of sample}
+
+\item{iter}{number of iteration}
+
+\item{lambda}{the rate of poisson distribution}
+
 \item{...}{}
 }
 \value{
-
+plots simulating CLT outcomes of Poisson distribution
 }
 \description{
-Title Central Limit Theorem on Poisson Distribution
+Central Limit Theorem on Poisson Distribution
 Produce plots pertaining the distribution of the sample mean from a population distributed as
 Poisson distribution
 }

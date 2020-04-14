@@ -2,20 +2,20 @@
 % Please edit documentation in R/lab2.R
 \name{lab2}
 \alias{lab2}
-\title{Title
+\title{Z score from a vector
 Compute Z score for outlier detection
 Input parameter must be a vector}
 \usage{
 lab2(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{a vector of interest}
 }
 \value{
 z score of a vector
 }
 \description{
-Title
+Z score from a vector
 Compute Z score for outlier detection
 Input parameter must be a vector
 }

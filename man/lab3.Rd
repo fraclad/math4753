@@ -2,19 +2,21 @@
 % Please edit documentation in R/lab3.R
 \name{lab3}
 \alias{lab3}
-\title{Title
+\title{The Sum or Squares of SLR
 Compute residual, model, and total sum of squares}
 \usage{
 lab3(x, y)
 }
 \arguments{
-\item{y}{}
+\item{x}{independent sample data}
+
+\item{y}{random variable corresponding to x}
 }
 \value{
 a list containing RSS, MSS, and TSS
 }
 \description{
-Title
+The Sum or Squares of SLR
 Compute residual, model, and total sum of squares
 }
 \examples{

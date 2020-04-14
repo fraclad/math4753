@@ -3,13 +3,13 @@
 #' approximate a parameter of interest
 #' This needs initial x guess
 #'
-#' @param x0
-#' @param delta
-#' @param llik
-#' @param xrange
-#' @param parameter
+#' @param x0 initial guess of root
+#' @param delta acceptable difference for solution convergence
+#' @param llik likelihood function whose root to be estimated
+#' @param xrange set range for x in the graphic
+#' @param parameter set parameter as display on graphic
 #'
-#' @return
+#' @return root estimated by Newton Raphson for maximum likelihood estimation
 #' @export
 #'
 #' @examples myNRML(x0=1,delta=0.000001,llik=function(x) log(dpois(12,x)*dpois(10,x)),xrange=c(0,20),parameter="lambda" )

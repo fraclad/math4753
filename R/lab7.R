@@ -1,17 +1,17 @@
 #' Two Population Chi Sq Statistics
 #'
-#' @param n1
-#' @param n2
-#' @param sigma1
-#' @param sigma2
-#' @param mean1
-#' @param mean2
-#' @param iter
-#' @param xleg
-#' @param ymax
+#' @param n1 n sample of y1
+#' @param n2 n sample of y2
+#' @param sigma1 std dev of y1
+#' @param sigma2 std dev of y2
+#' @param mean1 mean of y1
+#' @param mean2 mean of y2
+#' @param iter number of iteration
+#' @param xleg enable user toggle legend by click on the graphic output
+#' @param ymax max of y, for visual clearance
 #' @param ...
 #'
-#' @return
+#' @return Chi sq statistics graphics
 #' @export
 #'
 #' @examples lab7chisim2(n1=10,n2=14,sigma1=3,sigma2=3,mean1=5,mean2=10,iter=1000, ...)

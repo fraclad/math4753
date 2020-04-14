@@ -1,7 +1,7 @@
-#' Title
+#' Z score from a vector
 #' Compute Z score for outlier detection
 #' Input parameter must be a vector
-#' @param x
+#' @param x a vector of interest
 #'
 #' @return z score of a vector
 #' @export

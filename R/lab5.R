@@ -1,10 +1,11 @@
-#' Mybin function for lab 5
+#' The Binomial Simulation
+#' Creates bin distribution for binomial
 #'
-#' @param iter
-#' @param n
-#' @param p
+#' @param iter number of iterations
+#' @param n number of bins
+#' @param p probablity of success
 #'
-#' @return
+#' @return binomial simulation graphics
 #' @export
 #'
 #' @examples mybin(iter = 25, n = 9, p = 075)

@@ -7,10 +7,10 @@
 myci(x)
 }
 \arguments{
-\item{x}{}
+\item{x}{a vector of interest}
 }
 \value{
-
+a 95% lower and upper confidence interval
 }
 \description{
 Create a 95% confidence interval from a given vector

@@ -7,10 +7,18 @@
 myNRML(x0, delta = 0.001, llik, xrange, parameter = "param")
 }
 \arguments{
-\item{parameter}{}
+\item{x0}{initial guess of root}
+
+\item{delta}{acceptable difference for solution convergence}
+
+\item{llik}{likelihood function whose root to be estimated}
+
+\item{xrange}{set range for x in the graphic}
+
+\item{parameter}{set parameter as display on graphic}
 }
 \value{
-
+root estimated by Newton Raphson for maximum likelihood estimation
 }
 \description{
 approximate a parameter of interest

@@ -1,6 +1,6 @@
-#' Title
+#' Mean and Standard Deviation from a vector
 #' compute mean and standard deviation from a given vector
-#' @param x
+#' @param x a vector of interest
 #'
 #' @return a list of mean and standard deviation
 #' @export

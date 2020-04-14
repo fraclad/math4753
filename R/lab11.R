@@ -2,9 +2,9 @@
 #'
 #' Create a 95% confidence interval from a given vector
 #'
-#' @param x
+#' @param x a vector of interest
 #'
-#' @return
+#' @return a 95% lower and upper confidence interval
 #' @export
 #'
 #' @examples myci(x)

@@ -1,13 +1,13 @@
-#' Title Central Limit Theorem on Poisson Distribution
+#' Central Limit Theorem on Poisson Distribution
 #' Produce plots pertaining the distribution of the sample mean from a population distributed as
 #' Poisson distribution
 #'
-#' @param n
-#' @param iter
-#' @param lambda
+#' @param n number of sample
+#' @param iter number of iteration
+#' @param lambda the rate of poisson distribution
 #' @param ...
 #'
-#' @return
+#' @return plots simulating CLT outcomes of Poisson distribution
 #' @export
 #'
 #' @examples clt_pois(n = 50, iter = 100000, ...)
